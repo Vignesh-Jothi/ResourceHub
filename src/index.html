@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ResourceHub - Your One Stop Resource for Everything</title>
+	<link rel="stylesheet" href="/build/css/output.css">
+	<style>
+		/* Add a custom style for the navigation bar */
+		nav {
+			background-color: #111;
+			/* Dark black color */
+			color: #fff;
+			/* White color for text */
+			padding: 10px;
+			/* Add some padding to make it look nicer */
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<!-- Navigation bar -->
+		<nav class="flex justify-between items-center">
+			<!-- Logo -->
+			<div class="flex items-center">
+				<img src="images/logo.ico" alt="Logo" class="h-8 mr-2">
+				<h1 class="text-xl font-bold">ResourceHub</h1>
+			</div>
+
+			<!-- Navigation links -->
+			<ul class="flex ">
+				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">Resources</a></li>
+				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">About Us</a></li>
+				<li><a href="#" class="text-white hover:text-gray-300">Contact Us</a></li>
+			</ul>
+		</nav>
+		<!-- Title and description -->
+		<div
+			class="grid place-content-center h-screen bg-black bg-[url('/src/images/bg.svg')] bg-contain bg-no-repeat bg-center">
+			<h1 class="text-4xl font-bold mt-8 text-white text-center">ResourceHub</h1>
+			<p class="mt-4 text-white">Your One Stop Resource for Everything</p>
+		</div>
+	</header>
+	<main class="">
+		<section class="h-screen bg-black text-white">
+			<!-- Resources for web development -->
+			<h2 class="text-2xl font-bold pt-8 text-center">Web Development Resources</h2>
+			<ul class="mt-4">
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+						class="text-blue-500 hover:text-blue-700">HTML Documentation</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+						class="text-blue-500 hover:text-blue-700">CSS Documentation</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+						class="text-blue-500 hover:text-blue-700">JavaScript Documentation</a></li>
+				<li><a href="https://stackoverflow.com" class="text-blue-500 hover:text-blue-700">Stack Overflow</a>
+				</li>
+				<li><a href="https://www.w3schools.com" class="text-blue-500 hover:text-blue-700">W3Schools</a></li>
+
+			</ul>
+			<!-- <label for="webdev">Choose your choice from the list:</label>
+			<input list="webdev" name="web" id="webdev" class="text-black">
+
+			<datalist id="webdev">
+				<option value="WEBSITES">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist> -->
+		</section>
+
+		<section>
+			<!-- Resources for web designing -->
+			<h2 class="text-2xl font-bold mt-8">Web Designing Resources</h2>
+			<ul class="mt-4">
+				<li><a href="https://www.adobe.com/products/xd.html" class="text-blue-500 hover:text-blue-700">Adobe
+						XD</a></li>
+				<li><a href="https://www.sketch.com/" class="text-blue-500 hover:text-blue-700">Sketch</a></li>
+				<li><a href="https://www.figma.com/" class="text-blue-500 hover:text-blue-700">Figma</a></li>
+				<li><a href="https://www.figma.com/" class="text-blue-500 hover:text-blue-700">Figma</a></li>
+			</ul>
+		</section>
+	</main>
+</body>
+
+</html>
