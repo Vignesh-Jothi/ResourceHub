@@ -19,7 +19,7 @@ ResourceHub is currently under active development. Here's an overview of the cur
 - Populated each section with initial resources
 - Integrated Tailwind CSS for responsive and customizable styling
 
-Next steps in the development process include:
+### Next steps in the development process include:
 
 - Adding additional resources for web development, web designing, and ChatGPT prompts
 - Enhancing the user interface and design elements
