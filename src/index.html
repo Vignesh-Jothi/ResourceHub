@@ -1,49 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
 
 <head>
 	<title>ResourceHub - Your One Stop Resource for Everything</title>
 	<link rel="stylesheet" href="/build/css/output.css">
-	<style>
-		/* Add a custom style for the navigation bar */
-		nav {
-			background-color: #111;
-			/* Dark black color */
-			color: #fff;
-			/* White color for text */
-			padding: 10px;
-			/* Add some padding to make it look nicer */
-		}
-	</style>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 </head>
 
-<body>
+<body class="bg-black">
 	<header>
 		<!-- Navigation bar -->
 		<nav class="flex justify-between items-center">
 			<!-- Logo -->
 			<div class="flex items-center">
-				<img src="images/logo.ico" alt="Logo" class="h-8 mr-2">
+				<img src="images/logo.png" alt="Logo" class="h-8 mr-2">
 				<h1 class="text-xl font-bold">ResourceHub</h1>
 			</div>
 
 			<!-- Navigation links -->
 			<ul class="flex ">
 				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">Home</a></li>
-				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">Resources</a></li>
-				<li class="mr-4"><a href="#" class="text-white hover:text-gray-300">About Us</a></li>
+				<li class="mr-4"><a href="#res" class="text-white hover:text-gray-300">Resources</a></li>
+				<li class="mr-4"><a href="#about" class="text-white hover:text-gray-300">About Us</a></li>
 				<li><a href="#" class="text-white hover:text-gray-300">Contact Us</a></li>
 			</ul>
 		</nav>
 		<!-- Title and description -->
 		<div
-			class="grid place-content-center h-screen bg-black bg-[url('/src/images/bg.svg')] bg-contain bg-no-repeat bg-center">
+			class="grid place-content-center h-screen  bg-[url('/src/images/bg.svg')] bg-contain bg-no-repeat bg-center mb-8">
 			<h1 class="text-4xl font-bold mt-8 text-white text-center">ResourceHub</h1>
 			<p class="mt-4 text-white">Your One Stop Resource for Everything</p>
 		</div>
 	</header>
 	<main class="">
-		<section class="h-screen bg-black text-white">
+		<section id="about" class="h-screen bg-[url('/src/images/about.svg')] bg-cover bg-no-repeat bg-left-bottom text-white">
+			<!-- About section -->
+			<h2 class="text-2xl font-bold pt-8 pb-8 mt-8 text-center">About Me</h2>
+			<div class="font-bold text-center p-8 leading-normal">
+				<p>Welcome to ResourceHub! I'm Vignesh, a passionate web developer and the creator of this platform. <br/>
+					As a developer myself, I understand the challenges of finding reliable and up-to-date resources for web development, 
+					web designing, and ChatGPT prompts.</p>
+				<p>ResourceHub was born out of the desire to provide a centralized hub where developers, designers, and enthusiasts can easily 
+					access a curated collection of valuable resources. Whether you are a beginner starting your journey in web development or an 
+					experienced professional looking to expand your knowledge, ResourceHub is here to support you.</p>
+				<p>My goal is to continually enhance ResourceHub and make it the go-to resource platform for the web development community. 
+					I'm dedicated to curating high-quality resources and incorporating user feedback to ensure that ResourceHub remains 
+					a valuable asset to all users.</p>
+				<p>Thank you for visiting ResourceHub, and I hope you find this platform helpful on your web development and design endeavors. 
+					If you have any suggestions or questions, please feel free to reach out to me through the contact information provided.</p>
+			</div>
+			
+		</section>
+		
+		<section id="res" class="h-screen text-white">
 			<!-- Resources for web development -->
 			<h2 class="text-2xl font-bold pt-8 text-center">Web Development Resources</h2>
 			<ul class="mt-4">
