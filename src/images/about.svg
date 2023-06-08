@@ -1,1 +1,77 @@
-<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="900" height="600" fill="#000000"></rect><g fill="#6600FF"><circle r="113" cx="849" cy="24"></circle><circle r="71" cx="581" cy="497"></circle><circle r="92" cx="825" cy="252"></circle><circle r="92" cx="268" cy="153"></circle><circle r="87" cx="507" cy="12"></circle><circle r="88" cx="54" cy="273"></circle><circle r="75" cx="100" cy="572"></circle><circle r="88" cx="445" cy="312"></circle><circle r="95" cx="329" cy="565"></circle><circle r="72" cx="829" cy="564"></circle></g></svg>
+<svg 
+    id="visual" 
+    viewBox="0 0 900 600" 
+    width="900" 
+    height="600" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    version="1.1">
+<rect
+    x="0" 
+    y="0" 
+    width="900" 
+    height="600" 
+    fill="#000000"></rect>
+    <g fill="#6600FF"  stroke="white" stroke-width="2px">
+        <circle r="113" cx="849" cy="24">
+            <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="71" cx="581" cy="497">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M50,50 C70,-50 180,100 10,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="92" cx="825" cy="252">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="92" cx="268" cy="153">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M50,50 C70,-50 180,100 10,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="87" cx="507" cy="12">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="88" cx="54" cy="273">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M50,50 C70,-50 180,100 10,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="75" cx="100" cy="572">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="88" cx="445" cy="312">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M50,50 C70,-50 180,100 10,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="95" cx="329" cy="565">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+        </circle>
+        <circle r="72" cx="829" cy="564">
+             <animateMotion
+                dur="10s"
+                repeatCount="indefinite"
+                path="M50,50 C70,-50 180,100 10,50 C180-50 20,150 20,50 z" />
+        </circle>
+    </g>
+</svg>
