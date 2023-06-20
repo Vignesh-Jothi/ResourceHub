@@ -10,57 +10,46 @@
 </head>
 
 <body class="bg-black">
-	<header class="relative">
+	<header class="relative mx-40">
 		<!-- Navigation bar -->
-		<nav class="sm:flex justify-between items-center">
-			<!-- Logo -->
-			<div id="icon" class="flex  items-center">
+		<nav class=" text-xl font-bold dark:border-gray-700">
+			<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+			<a href="#" class="flex items-center">
 				<img src="images/logo.png" alt="Logo" class="h-8 mr-2">
-				<h1 class="text-xl font-bold">ResourceHub</h1>
+				<h1 class="text-xl text-white font-bold">ResourceHub</h1>
+			</a>
+			<button id="menu-button" data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+				<span class="sr-only">Open main menu</span>
+				<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+			</button>
+			<div class="hidden w-full md:block md:w-auto" id="menu">
+				<ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0    dark:border-gray-700">
+				<li>
+					<a href="#" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded md:bg-transparent md:text-purple-700 md:p-0 md:dark:text-purple-500 dark:bg-purple-600 md:dark:bg-transparent" aria-current="page">Home</a>
+				</li>
+				<li>
+					<a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resources</a>
+				</li>
+				<li>
+					<a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+				</li>
+				<li>
+					<a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+				</li>
+				</ul>
 			</div>
-
-			<!-- Navigation links -->
-			<!-- Hamburger Icon -->
-			<svg
-					xmlns="<http://www.w3.org/2000/svg>"
-					id="menu-button"
-					class="h-6 w-6 cursor-pointer md:hidden block"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor">
-					<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M4 6h16M4 12h16M4 18h16"
-					/>
-          </svg>
-		  <div class="hidden w-full md:flex md:items-center md:w-auto " id="menu">
-			
-			<ul class="text-base font-bold text-white pt-4 md:flex md:justify-between md:pt-0">
-			  <li>
-				<a class="md:p-4 py-2 block  hover:text-purple-400 " href="#">Home</a>
-			  </li>
-			  <li>
-				<a class="md:p-4 py-2 block hover:text-purple-400" href="#res">Resources</a>
-			  </li>
-			  <li>
-				<a class="md:p-4 py-2 block hover:text-purple-400" href="#about">About</a>
-			  </li>
-			  <li>
-				<a class="md:p-4 py-2 block hover:text-purple-400" href="#">Contact</a>
-			  </li>
-			</ul>
-		  </div>
+			</div>
 		</nav>
-		<!-- Title and description -->
-		<div
-			class="grid place-content-center h-screen  bg-[url('/src/images/bg.svg')] bg-contain bg-no-repeat bg-center mb-8">
+	</header>
+	
+	<!-- Hero Banner -->
+	<section class="mx-40">
+		<div class="grid place-content-center h-screen">
 			<h1 class="text-4xl font-bold mt-8 text-white text-center hover:text-slate-300">ResourceHub</h1>
-			<p class="mt-4 text-white">Your One Stop Resource for Everything</p>
+			<p class="mt-4 text-white text-center">Your One Stop Resource for Everything</p>
 		</div>
 		<div class="absolute left-[50%] translate-x-[-50%] bottom-3">
-			<svg 
+			<a href="#res"><svg 
 				xmlns="http://www.w3.org/2000/svg" 
 				fill="none" 
 				viewBox="0 0 24 24" 
@@ -69,118 +58,12 @@
 				class="w-7 h-7 animate-bounce text-slate-100">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 			</svg>
-			  
+		</a>
 		</div>
-	</header>
-	<main class="">
-		<section id="about" class="h-screen bg-[url('/src/images/about.svg')]  bg-cover bg-no-repeat bg-left-bottom text-white">
-			<!-- About section -->
-			<h2 class="text-4xl md:text-2xl font-bold pt-8 pb-8 mt-8 text-center">About Me</h2>
-			<div class="font-bold text-center p-8  leading-normal bg-gray-800/50 break-words md:rounded">
-				<p>Welcome to ResourceHub! I'm Vignesh, a passionate web developer and the creator of this platform. <br/>
-					As a developer myself, I understand the challenges of finding reliable and up-to-date resources for web development, 
-					web designing, and ChatGPT prompts.</p>
-				<p>ResourceHub was born out of the desire to provide a centralized hub where developers, designers, and enthusiasts can easily 
-					access a curated collection of valuable resources. Whether you are a beginner starting your journey in web development or an 
-					experienced professional looking to expand your knowledge, ResourceHub is here to support you.</p>
-				<p>My goal is to continually enhance ResourceHub and make it the go-to resource platform for the web development community. 
-					I'm dedicated to curating high-quality resources and incorporating user feedback to ensure that ResourceHub remains 
-					a valuable asset to all users.</p>
-				<p>Thank you for visiting ResourceHub, and I hope you find this platform helpful on your web development and design endeavors. 
-					If you have any suggestions or questions, please feel free to reach out to me through the contact information provided.</p>
-			</div>
-			
-		</section>
-		
-		<section id="res" class="h-screen text-white">
-			<!-- Resources for web development -->
-			<h2 class="text-2xl font-bold pt-8 text-center">Web Development Resources</h2>
-			<div class="flex items-center gap-2">
-				<div  class="w-full h-96 bg-white rounded m-4 border-2 border-white hover:bg-purple-500 overflow-y-scroll relative">
-					<div class="text-xl font-bold text-white bg-black cursor-pointer text-center p-9 hover:text-purple-400 sticky top-0 left-0 right-0">WEBSITES</div>
-						<div class=" w-full h-9 text-black text-center border-b-indigo-400">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class=" w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class=" w-full h-9 text-black text-center">
-							<a href="https://www.udemy.com/">Udemy</a>
-						</div>
-						<div class=" w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class="w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class= "w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class="w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-						<div class="w-full h-9 text-black text-center">
-							<a href="https://www.freecodecamp.org/">Free Code Camp</a>
-						</div>
-				</div>
-				
-				<div class="w-full h-96 bg-white rounded m-4 border-2 border-white hover:bg-purple-500">
-					<div class="text-xl font-bold text-white bg-black cursor-pointer text-center p-9 hover:text-purple-400">YOUTUBE CHANNELS</div>
-
-				</div>
-				<div class="w-full h-96 bg-white rounded m-4 border-2 border-white hover:bg-purple-500">
-					<div class="text-xl font-bold text-white bg-black cursor-pointer text-center p-9  hover:text-purple-400">DOCUMENTS</div>
-						
-				</div>
-				<div class="w-full h-96 bg-white rounded m-4 border-2 border-white hover:bg-purple-500">
-					<div class="text-xl font-bold text-white bg-black cursor-pointer text-center p-9  hover:text-purple-400">Added Links</div>
-					<div id="content">
-						<button id="addButton" class="bg-purple-400">Add Content</button>
-						<div id="contentContainer"></div>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			
-			
-			<!-- <ul class="mt-4">
-				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-						class="text-blue-500 hover:text-blue-700">HTML Documentation</a></li>
-				<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-						class="text-blue-500 hover:text-blue-700">CSS Documentation</a></li>
-				<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-						class="text-blue-500 hover:text-blue-700">JavaScript Documentation</a></li>
-				<li><a href="https://stackoverflow.com" class="text-blue-500 hover:text-blue-700">Stack Overflow</a>
-				</li>
-				<li><a href="https://www.w3schools.com" class="text-blue-500 hover:text-blue-700">W3Schools</a></li>
-
-			</ul> -->
-			<!-- <label for="webdev">Choose your choice from the list:</label>
-			<input list="webdev" name="web" id="webdev" class="text-black">
-
-			<datalist id="webdev">
-				<option value="WEBSITES">
-				<option value="Firefox">
-				<option value="Chrome">
-				<option value="Opera">
-				<option value="Safari">
-			</datalist> -->
-		</section>
-
-		<section>
-			<!-- Resources for web designing -->
-			<h2 class="text-2xl font-bold mt-8">Web Designing Resources</h2>
-			<ul class="mt-4">
-				<li><a href="https://www.adobe.com/products/xd.html" class="text-blue-500 hover:text-blue-700">Adobe
-						XD</a></li>
-				<li><a href="https://www.sketch.com/" class="text-blue-500 hover:text-blue-700">Sketch</a></li>
-				<li><a href="https://www.figma.com/" class="text-blue-500 hover:text-blue-700">Figma</a></li>
-				<li><a href="https://www.figma.com/" class="text-blue-500 hover:text-blue-700">Figma</a></li>
-			</ul>
+	</section>
+	<main class="mx-40">
+		<section id="res">
+			<p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut consectetur possimus accusamus dolor placeat pariatur, provident minima nesciunt, amet cupiditate expedita voluptatibus mollitia qui, assumenda eligendi exercitationem? Vero, odit ab.</p>
 		</section>
 	</main>
 </body>
