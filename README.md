@@ -1,6 +1,7 @@
 # ResourceHub
 
-![ResourceHub Logo](logo.png)
+![ResourceHub Logo](https://github.com/Vignesh-Jothi/ResourceHub/assets/87015660/fa9cfaa2-7186-4223-a76f-0700843b9e76)
+
 
 ResourceHub is a web application that serves as your one-stop resource for everything related to web development, web designing, and ChatGPT prompts. 
 It provides a curated collection of valuable resources and references to help you in your journey as a developer, designer, or anyone interested in exploring the world of web technologies.
@@ -10,7 +11,7 @@ It provides a curated collection of valuable resources and references to help yo
 - [Introduction](#introduction)
 - [Features](#features)
 - [Demo](#demo)
-- [Development](#Development)
+- [Development](#development)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -53,7 +54,7 @@ To run ResourceHub locally on your machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ResourceHub.git
+   git clone https://github.com/Vignesh-Jothi/ResourceHub.git
    ```
 
 2. Navigate to the project directory:
