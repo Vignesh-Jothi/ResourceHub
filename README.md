@@ -32,14 +32,14 @@ ResourceHub has something for everyone. Stay up-to-date with the latest trends, 
 - Search functionality to quickly find the resources you need.
 - User-friendly and responsive web interface.
 
-## Demo
+<!-- ## Demo -->
 
 <!-- Check out the live demo of ResourceHub at [](). -->
-Currently under active development
+<!-- Currently under active development -->
 
 ## Development
 
-ResourceHub is currently under active development. Here's an overview of the current progress and upcoming features:
+Here's an overview of the current progress and upcoming features:
 
 - Implemented the basic structure of the web page using HTML and CSS.
 - Added navigation bar with a dark black background color.
