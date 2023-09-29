@@ -10,7 +10,7 @@ It provides a curated collection of valuable resources and references to help yo
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Demo](#demo)
+<!-- [Demo](#demo) -->
 - [Development](#development)
 - [Installation](#installation)
 - [Usage](#usage)
